@@ -1,0 +1,9 @@
+<!--components/SignCanvas/SignCanvas.wxml-->
+<view class="sign-canvas">
+    <canvas type="2d" id="signCanvas" disable-scroll="true" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd"></canvas>
+    <view class="sign-btns">
+        <button class="btn" bindtap="clearCanvas">清除重签</button>
+        <button class="btn" bindtap="backoutCanvas">撤回上一步</button>
+        <button class="btn" bindtap="confirmCanvas">确认签名</button>
+    </view>
+</view>
