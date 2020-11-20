@@ -1,20 +1,12 @@
 //index.js
 Page({
   data: {
-    isSign: false,
     signImg: ''
   },
 
   openSign() {
-    this.setData({
-      isSign: true
-    })
-  },
-
-  confirmSign(e) {
-    this.setData({
-      signImg: e.detail,
-      isSign: false
+    wx.navigateTo({
+        url: '../signPage/signPage',
     })
   },
 

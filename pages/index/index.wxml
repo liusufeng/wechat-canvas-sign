@@ -1,11 +1,8 @@
 <!--index.wxml-->
-<view class="container {{isSign ? 'sign-page' : ''}}">
-	<block wx:if="{{!isSign}}">
-		<button class="open-sign" bindtap="openSign">打开签字板</button>
-		<block wx:if="{{signImg}}">
-			<image class="sign-image" src="{{signImg}}" mode="aspectFit" bindlongpress="saveImageToPhotosAlbum"></image>
-			<view>长按图片保存到相册</view>
-		</block>
-	</block>
-	<sign-canvas class="sign-canvas" bindconfirmSign="confirmSign" wx:else></sign-canvas>
+<view class="container">
+	<button class="open-sign" type="primary" bindtap="openSign">打开签字板</button>
+	<view class="sign-image-box" wx:if="{{signImg}}">
+		<image class="sign-image" src="{{signImg}}" mode="aspectFit" bindlongpress="saveImageToPhotosAlbum"></image>
+		<view>长按图片可保存到相册</view>
+	</view>
 </view>

@@ -1,11 +1,12 @@
 {
     "pages": [
-        "pages/index/index"
+        "pages/index/index",
+        "pages/signPage/signPage"
     ],
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#fff",
-        "navigationBarTitleText": "Weixin",
+        "navigationBarTitleText": "wechat-canvas-sign",
         "navigationBarTextStyle": "black"
     },
     "style": "v2",

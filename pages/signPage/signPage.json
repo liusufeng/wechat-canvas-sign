@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "签字板",
+  "pageOrientation": "landscape",
+  "usingComponents": {
+      "sign-canvas": "/components/SignCanvas/SignCanvas"
+  }
+}

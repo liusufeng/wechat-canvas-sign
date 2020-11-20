@@ -1,0 +1,9 @@
+<!--pages/signPage/signPage.wxml-->
+<view class="container sign-page">
+    <sign-canvas class="sign-canvas" id="signCanvas"></sign-canvas>
+    <view class="sign-btns">
+        <button class="btn clear" bindtap="clearCanvas">清除重签</button>
+        <button class="btn clear" bindtap="backoutCanvas">撤回上一步</button>
+        <button class="btn comfirm" bindtap="confirmCanvas">确认签名</button>
+    </view>
+</view>

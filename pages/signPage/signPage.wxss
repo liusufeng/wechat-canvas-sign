@@ -1,0 +1,44 @@
+/* pages/signPage/signPage.wxss */
+.sign-page {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding: 15px 15px;
+    box-sizing: border-box;
+}
+
+.sign-canvas {
+    flex: 1;
+    height: 100%;
+    border: 1px solid #E4E4E4;
+}
+
+.sign-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    margin-left: 15rpx;
+}
+
+.sign-btns .btn {
+    width: auto;
+    line-height: 30rpx;
+    font-weight: normal;
+    font-size: 14px;
+    padding: 0 10rpx;
+    margin: 20px auto 0;
+    box-sizing: border-box;
+}
+
+.sign-btns .btn:active {
+    opacity: .8;
+}
+.sign-btns .btn.comfirm {
+    background-color: #2C71FF;
+    color: #fff;
+}
+.sign-btns .btn.clear {
+    background-color: #39486C;
+    color: #fff;
+}
